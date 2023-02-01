@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Main = () => {
     return (
@@ -16,7 +17,7 @@ const Main = () => {
                         <div>
                             <h1 class="text-5xl font-bold">안녕하세요 !</h1>
                             <p class="py-6">아직 배우고 싶은것이 많은 개발자 염현섭 입니다. 더 많은것을 배우고 경험하며 성장하는 개발자가 되겠습니다.</p>
-                            <button class="btn btn-primary"><a href="http://localhost:3000/port">Go To Portfolio</a></button>
+                            <button class="btn btn-primary" onClick={navigate("/port")}>Go To Portfolio</button>
                         </div>
                     </div>
                 </div>
