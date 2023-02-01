@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const Main = () => {
+    const navigate = useNavigate();
     return (
         <div class="site-wrap">
             <div class="container mx-auto">
