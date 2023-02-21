@@ -8,17 +8,19 @@ const Main = () => {
             <div class="container mx-auto">
                 <div class="navbar bg-base-100 fixed top-0 left-0 z-50">
                     <div class="flex-1">
-                        <a class="btn btn-ghost normal-case text-xl" href='http://localhost:3000'>Portfolio</a>
+                        <a class="btn btn-ghost normal-case text-xl" href='http://zx3923.github.io/portfolio'>Portfolio</a>
                     </div>
 
                 </div>
                 <div class="hero min-h-screen" >
                     <div class="hero-content flex-col lg:flex-row">
-                        <img src="https://placeimg.com/260/400/arch" class="max-w-sm rounded-lg shadow-2xl m-6" />
+                        <img src="https://i.imgur.com/8EiGUwz.jpg" class="max-w-sm rounded-lg shadow-2xl m-6" />
                         <div>
                             <h1 class="text-5xl font-bold">안녕하세요 !</h1>
                             <p class="py-6">아직 배우고 싶은것이 많은 개발자 염현섭 입니다. 더 많은것을 배우고 경험하며 성장하는 개발자가 되겠습니다.</p>
-                            <button class="btn btn-primary" onClick={navigate("/port")}>Go To Portfolio</button>
+                            <button class="btn btn-primary" onClick={() => {
+                                navigate("/port")
+                            }}>Go To Portfolio</button>
                         </div>
                     </div>
                 </div>
