@@ -37,6 +37,30 @@ const Port = () => {
             <div className="container mx-auto px-4">
                 <div className="portfolio-list my-20 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
                     <div className="card bg-base-100 shadow-xl">
+                        <figure><img src="https://i.imgur.com/DlSLnKX.png" alt="Shoes" /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">e층창고</h2>
+                            <p>위치기반 쇼핑몰</p>
+                            <div className="prgoress-box my-2">
+                                <div className="progress-box__progress flex items-center">
+                                    <div className="w-20">React</div>
+                                    <progress className="progress progress-primary w-56" value="80" max="100"></progress>
+                                </div>
+                                <div className="progress-box__progress flex items-center">
+                                    <div className="w-20">Spring</div>
+                                    <progress className="progress progress-primary w-56" value="60" max="100"></progress>
+                                </div>
+                                <div className="progress-box__progress flex items-center">
+                                    <div className="w-20">MYsql</div>
+                                    <progress className="progress progress-primary w-56" value="70" max="100"></progress>
+                                </div>
+                            </div>
+                            <div className="card-actions justify-end">
+                                <a className='testttt' href='https://e-changgo.com/' target='_blank' rel='noreferrer'><button className="btn btn-primary">사이트</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="card bg-base-100 shadow-xl">
                         <figure><img src="https://i.imgur.com/frpeffM.png" alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">증권 사이트</h2>
