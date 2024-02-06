@@ -80,7 +80,7 @@ const Port = () => {
                                 </div>
                             </div>
                             <div className="card-actions justify-end">
-                                <a className='testttt' href='http://www.noh.world:3000/' target='_blank' rel='noreferrer'><button className="btn btn-primary">사이트</button></a>
+                                {/* <a className='testttt' href='http://www.noh.world:3000/' target='_blank' rel='noreferrer'><button className="btn btn-primary">사이트</button></a> */}
                                 <a href='https://www.figma.com/file/Kt1XGmadMLNV9qflhAfhdM/%ED%88%AC%EC%9E%90-%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0-%EC%82%AC%EC%9D%B4%ED%8A%B8?node-id=0%3A1&t=OXFf1fBY9T2gUEgW-0' target='_blank' rel='noreferrer'><button className="btn btn-primary">자세히 보기</button></a>
                             </div>
                         </div>
@@ -101,7 +101,7 @@ const Port = () => {
                                 </div>
                             </div>
                             <div className="card-actions justify-end">
-                                <a href="https://zx3923.github.io/my-chat-front/" target='_blank' rel='noreferrer'><button className="btn btn-primary">사이트</button></a>
+                                {/* <a href="https://zx3923.github.io/my-chat-front/" target='_blank' rel='noreferrer'><button className="btn btn-primary">사이트</button></a> */}
                                 <a href="https://www.figma.com/file/uN0TXjIhrOKszfvmv1Zq22/%EC%B1%84%ED%8C%85?t=OXFf1fBY9T2gUEgW-0" target='_blank' rel='noreferrer'><button className="btn btn-primary">자세히 보기</button></a>
                             </div>
                         </div>
