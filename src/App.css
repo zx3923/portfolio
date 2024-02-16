@@ -1,0 +1,145 @@
+body {
+  --bs-body-font-family: Noto Sans KR;
+  font-family: "Noto Sans KR", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mainContainer {
+  display: grid;
+  background-color: #1b1b1e;
+}
+
+.img {
+  background-image: url(https://i.imgur.com/ZrGJwne.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.aboutMe {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: #4f535c; */
+  color: white;
+  padding: 100px 0;
+}
+
+.aboutMe > p {
+  margin: 10px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+  color: white;
+  /* background-color: #e7e6e6; */
+}
+
+.skill > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill span {
+  font-weight: bold;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.skill > div > div > * {
+  margin: 10px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+  color: white;
+}
+
+.line {
+  border-bottom: 1px solid bisque;
+}
+
+.scroll-downs {
+  position: absolute;
+  right: 0;
+  bottom: 40px;
+  left: 0;
+  margin: auto;
+  width: 34px;
+  height: 55px;
+}
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #fff;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(15px);
+    opacity: 0;
+  }
+}
+
+/* 타이핑 애니메이션 효과 */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* 타이핑 애니메이션 적용 스타일 */
+.typing {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
